@@ -12,7 +12,6 @@ nav {
 }
 
 .menu {
-    /* position: fixed; */
     display: flex;
     justify-content: space-between;
     padding: 13px 70px;
@@ -142,7 +141,7 @@ nav {
     padding: 71px 0 65px 0;
 }
 
-.cause_label {
+.label {
     margin: 0 auto;
     height: 24px;
     width: 113px;
@@ -155,7 +154,7 @@ nav {
 
 }
 
-.cause_title {
+.title {
     margin-bottom: 0;
     margin-top: 38px;
     color: #222222;
@@ -165,7 +164,7 @@ nav {
     text-align: center;
 }
 
-.cause_block {
+.cause .cause_block {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -173,7 +172,7 @@ nav {
     min-height: 193px;
 }
 
-.cause_round {
+.cause .cause_block .cause_round {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,18 +183,18 @@ nav {
     background: #1EACC7;
 }
 
-.cause_descr {
+.cause .cause_block .cause_descr {
     width: 343px;
 }
 
-.cause_descr-title{
+.cause .cause_block .cause_descr .cause_descr-title{
     font-size: 17px;
     font-weight: 400;
     line-height: 21px;
     color: #1EACC7;
 }
 
-.cause_descr-text {
+.cause .cause_block .cause_descr .cause_descr-text {
     font-size: 15px;
     font-weight: 300;
     line-height: 21px;
