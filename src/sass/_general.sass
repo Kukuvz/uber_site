@@ -9,6 +9,9 @@ nav
     background-color: #212121
     z-index: 5
 
+.hamburger
+    display: none
+
 .menu
     display: flex
     justify-content: space-between
@@ -314,6 +317,7 @@ nav
         font-weight: 300
         line-height: 24px
         color: #1ca8c3
+        max-width: 480px
     .warning
         .require_title
             color: $red_color
@@ -374,8 +378,6 @@ footer
             height: 32px
             background-color: #070716
             border-radius: 100%
-            svg > path
-                fill: white
 
     &_links
         width: 390px
@@ -407,3 +409,5 @@ footer
             text-transform: uppercase
             text-align: center
             margin-top: 19px
+.xs-visible
+    display: none
